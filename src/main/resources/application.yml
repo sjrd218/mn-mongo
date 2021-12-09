@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: rdAuth
+mongodb.uri: mongodb://admin:madmin@${MONGO_HOST:localhost}:${MONGO_PORT:27017}/rd_auth
+
+grails:
+  mongodb:
+    host: "localhost"
+    port: 27017
+    username: admin
+    password: madmin
+    databaseName: "rd_auth"
